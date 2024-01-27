@@ -1,3 +1,4 @@
+
 @import url("./standart-css/standart.css");
 
 
@@ -51,7 +52,7 @@
     margin: 0 .2rem;
  }
 
- .nav-li:last-child {
+ .nav-li-bar {
     display: none;
  }
 
@@ -103,7 +104,7 @@
     padding: 2rem;
 }
 
-[class*="fa-"] {
+[class="fa-"] {
     color: var(--pink);
 }
 
@@ -118,7 +119,7 @@
         font-size: 1.4rem;
     }
 
-    .nav-li:last-child {
+    .nav-li-bar {
         display: block;
      }
 
