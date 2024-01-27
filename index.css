@@ -186,4 +186,8 @@
     .right {
         padding: 2rem;
     }
+
+    .btn {
+        margin-right: auto;
+    }
 }
