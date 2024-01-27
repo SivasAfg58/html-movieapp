@@ -1,0 +1,66 @@
+@import url("../standart-css/standart.css");
+
+/*---------------------- header part*/
+#header {
+    position: fixed;
+    width: 100%;
+}
+
+.navigation {
+    background-color: var(--pink);
+    padding: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-a, .logo {
+    padding: .8rem 1.8rem;
+    border-radius: 5rem;
+    color: var(--black);
+    transition-duration: .2s;
+}
+
+.logo {
+    font-weight: bolder;
+}
+
+.nav-a:hover, .logo:hover {
+    background-color: var(--white);
+    color: var(--blue);
+    box-shadow: 0 0 .5rem .3rem var(--blue);
+}
+
+.nav-a:active, .logo:active {
+    background-color: var(--black);
+    color: var(--mint);
+    box-shadow: 0 0 .5rem .3rem var(--mint);
+}
+
+.nav-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+ .nav-li {
+    margin: 0 .2rem;
+ }
+
+ .nav-li:last-child {
+    display: none;
+ }
+
+@media (max-width:567px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .nav-li:last-child {
+        display: block;
+     }
+
+     .nav-li {
+        display: none;
+     }
+}
