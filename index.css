@@ -124,7 +124,7 @@
 }
 
 .left {
-    background: linear-gradient(to bottom right,#4f5bd566, #962fbf66, #d6297666, #fa7e1e66, #feda7566), url('/img/features.jpeg');
+    background: linear-gradient(to bottom right,#4f5bd566, #962fbf66, #d6297666, #fa7e1e66, #feda7566), url('./img/features.jpeg');
     background-position: top center;
     background-size: cover;
 }
