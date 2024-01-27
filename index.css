@@ -73,13 +73,14 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     border-radius: 1rem;
     text-align: center;
     background-color: var(--blackop);
 }
 
-.show-case-bedge {
+.bedge {
+    margin: 0;
     color: var(--white);
 }
 
@@ -89,13 +90,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 2rem;
 }
 
 .inner-class {
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding: 0 12.5%;
+    padding: 0 2rem;
 }
 .col-3 {
     display: flex;
@@ -108,6 +110,34 @@
     color: var(--pink);
 }
 
+/*-------------------------- feature part*/
+#feature {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 55vh;
+}
+
+.left {
+    background: linear-gradient(to bottom right,#4f5bd566, #962fbf66, #d6297666, #fa7e1e66, #feda7566), url('/img/features.jpeg');
+    background-position: top center;
+    background-size: cover;
+}
+
+.right {
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+
+
 /*------------------------ media quary part*/
 
 @media (max-width:567px) {
@@ -116,7 +146,7 @@
     }
 
     body {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .nav-li-bar {
@@ -133,7 +163,7 @@
         height: 30vh;
     }
 
-    /*------------- inner class*/
+    /*------------- how it works part*/
 
     .inner-class {
         flex-direction: column;
@@ -141,5 +171,20 @@
 
     .col-3 {
         width: 100%;
+    }
+
+    /*--------------- feature part*/
+
+    #feature {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .right {
+        padding: 2rem;
     }
 }
