@@ -154,7 +154,7 @@
 .rec {
     position: relative;
     top: -2.5rem;
-    background: linear-gradient(to right bottom, #00000099, #00000099), url('./img/gettyimages.jpg');
+    background: linear-gradient(to right bottom, #00000099, #00000099), url('img/gettyimages.jpg');
     background-position: center;
     background-size: cover;
     color: var(--white);
